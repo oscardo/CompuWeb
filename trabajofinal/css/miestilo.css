@@ -1,0 +1,111 @@
+/* GENERAL */
+*{ 
+	font-family: arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+	/* padding: 0;
+	margin: 0; */
+}
+
+
+/* GENERAL */
+
+div#centro {
+    position: relative;
+    display: inline-block;
+    margin: 40 60 0;
+    opacity: 1;
+    left: 240;
+}
+
+/* #slider_designer{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	top: 30%;
+	left: 50%;
+	background-color: #73FF22;
+	float: left; 
+	list-style: none; 
+	position: relative; 
+}
+
+#slider_designer img{
+	align-content: center;
+	width: 200px !important;
+	height: 200px !important;
+	margin: 0 500 0 0;
+} */
+
+/* CV */
+#Titulo { font: 150% sans-serif; }
+#Empresa { 
+	font: 120% arial; 
+	font-family: cursive;
+	text-transform: uppercase;
+ }
+#Estudio { font: oblique bold 120% cursive; }
+#Nota { text-align: center; }
+.cargo { 
+	text-align: justify; 
+	color: blue;
+	}	
+.pie{
+	text-transform: uppercase;
+	text-align: center; 
+	font: 120%; 
+	font-family: Comic sans MS;
+	font-size: 20px;
+}
+div > ul{
+	text-transform: capitalize;
+	font: 100%; 
+	font-family: Verdana;
+	font-size: 12px;
+}
+/* CV */
+/* quien soy */
+div > ol{
+	text-transform: capitalize;
+	font: 200%; 
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+dl > dt {
+	text-transform: capitalize;
+	font-weight: bold;
+}
+dd {
+	text-align: center; 
+	color: red;
+	text-transform: uppercase;
+	font: 100%; 
+	font-family: Verdana;
+	font-size: 20px;
+}
+/* quien soy */
+/* interés */
+#TablaInteres{
+	text-align: center; 
+	color: blue;
+}
+
+#imagenes{
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 1px solid #000000;
+}
+.imagen{
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 1px solid #000000;
+}
+#imagen2{
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 1px solid #000000;
+}
+/* interés */

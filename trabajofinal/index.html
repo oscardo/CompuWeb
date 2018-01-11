@@ -1,0 +1,70 @@
+<html>
+	<head>
+	
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	  <script src="js/jquery.popmenu.min.js"></script>
+	  <link rel="stylesheet" href="css/miestilo.css">
+	  <link rel="stylesheet" href="css/popmenu.css">
+	  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, user-scalable=no">
+	  
+	  <script>
+		$(document).ready(function(){
+		  $('.slider').bxSlider({
+			auto: true,
+  			autoControls: true,
+  			stopAutoOnClick: true,
+  			pager: true,
+  			slideWidth: 800
+		});
+		});
+	  </script> 
+	
+	</head>
+	<body>
+
+
+<a href="https://github.com/gucheen/jQueryPopMenu"><img style="position: absolute; top: 0; right: 0; border: 0;"></a>
+<div id="posicion">
+<div id="container">
+        <div id="demo_box_2">
+            <span class="pop_ctrl"><i class="fa fa-bars"></i></span>
+            <ul id="demo_ul_2">
+                <li class="demo_li"><a href="#"><div><i class="fa fa-home"></i></div><div>Home</div></a></li>
+                <li class="demo_li"><div><i class="fa fa-cloud"></i></div><div>Cloud</div></li>
+                <li class="demo_li"><div><i class="fa fa-cog"></i></div><div>settings</div></li>
+                <li class="demo_li"><div><i class="fa fa-envelope"></i></div><div>E-mail</div></li>
+                <li class="demo_li"><div><i class="fa fa-clock-o"></i></div><div>Clock</div></li>
+                <li class="demo_li"><div><i class="fa fa-folder"></i></div><div>Files</div></li>
+                <li class="demo_li"><div><i class="fa fa-heart-o"></i></div><div>Favourites</div></li>
+                <li class="demo_li"><div><i class="fa fa-mobile"></i></div><div>Mobile</div></li>
+                <li class="demo_li"><div><i class="fa fa-power-off"></i></div><div>Exit</div></li>
+            </ul>
+        </div>
+    </div>
+	</div> <!-- posicion -->
+
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script src="js/jquery.popmenu.js"></script>
+    <script>
+        $(function(){
+            $('#demo_box_2').popmenu({'background':'#e67e22','focusColor':'#c0392b','borderRadius':'0'});
+        })
+    </script>
+
+	<div id="centro">
+	  <div class="slider">
+		<div><img src="images/Postgrado-Administracion-Gestion-Servidores-Web-Mensajeria-Electronica.jpg" alt="texto alterno"></div>
+		<div><img src="images/Cloud_computing-es.svg/1200px-Cloud_computing-es.svg.png" alt="texto alterno"></div>
+		<div><img src="images/esquema_03.jpg" alt="texto alterno"></div>
+		<div><img src="images/mapa%2Bconceptual%2Bmetodos%2Bagiles.jpg" alt="texto alterno"></div>
+		<div><img src="images/fchp_lenguajes.png" alt="texto alterno"></div>
+	  </div>
+	</div>  
+	
+	</body>
+	</html>
